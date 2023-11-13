@@ -128,16 +128,19 @@ public class simplepayrollmachine extends JFrame {
 		contentPane.add(lblNewLabel_9);
 		
 		textFieldTAX = new JTextField();
+		textFieldTAX.setEditable(false);
 		textFieldTAX.setBounds(533, 101, 96, 19);
 		contentPane.add(textFieldTAX);
 		textFieldTAX.setColumns(10);
 		
 		textFieldPhilhealth = new JTextField();
+		textFieldPhilhealth.setEditable(false);
 		textFieldPhilhealth.setBounds(533, 144, 96, 19);
 		contentPane.add(textFieldPhilhealth);
 		textFieldPhilhealth.setColumns(10);
 		
 		textFieldSSS = new JTextField();
+		textFieldSSS.setEditable(false);
 		textFieldSSS.setBounds(533, 182, 96, 19);
 		contentPane.add(textFieldSSS);
 		textFieldSSS.setColumns(10);
@@ -158,6 +161,7 @@ public class simplepayrollmachine extends JFrame {
 		contentPane.add(lblNewLabel_12);
 		
 		textFieldGrossSalary = new JTextField();
+		textFieldGrossSalary.setEditable(false);
 		textFieldGrossSalary.setBounds(178, 261, 137, 19);
 		contentPane.add(textFieldGrossSalary);
 		textFieldGrossSalary.setColumns(10);
@@ -168,16 +172,19 @@ public class simplepayrollmachine extends JFrame {
 		contentPane.add(lblNewLabel_13);
 		
 		textFieldTotalDeduction = new JTextField();
+		textFieldTotalDeduction.setEditable(false);
 		textFieldTotalDeduction.setBounds(533, 264, 96, 19);
 		contentPane.add(textFieldTotalDeduction);
 		textFieldTotalDeduction.setColumns(10);
 		
 		textField_9 = new JTextField();
+		textField_9.setEditable(false);
 		textField_9.setBounds(786, 92, 96, 19);
 		contentPane.add(textField_9);
 		textField_9.setColumns(10);
 		
 		textField_10 = new JTextField();
+		textField_10.setEditable(false);
 		textField_10.setBounds(786, 129, 96, 19);
 		contentPane.add(textField_10);
 		textField_10.setColumns(10);
@@ -188,6 +195,7 @@ public class simplepayrollmachine extends JFrame {
 		contentPane.add(lblNewLabel_14);
 		
 		textFieldNetSalary = new JTextField();
+		textFieldNetSalary.setEditable(false);
 		textFieldNetSalary.setBounds(786, 269, 96, 19);
 		contentPane.add(textFieldNetSalary);
 		textFieldNetSalary.setColumns(10);
